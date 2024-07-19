@@ -7,6 +7,7 @@ const props = defineProps(["item", "collapsed"]);
 <template>
   <a
     href="#"
+    @click.prevent="props.item.onClick"
     class="text-white no-underline block hover:bg-white hover:text-black"
   >
     <div class="flex items-center p-[10px] gap-[10px]">

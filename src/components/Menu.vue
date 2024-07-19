@@ -23,11 +23,6 @@ const collapsed = ref(false);
     </div>
 
     <div class="p-[10px] text-center">
-      <img
-        :src="menuItems.profile.image"
-        alt="icon"
-        class="rounded-[50%] min-w-[50px] max-w-[300px] w-full"
-      />
       <div class="px-[10px] py-0 text-[18px]" v-if="!collapsed">
         {{ menuItems.profile.name }}
       </div>
