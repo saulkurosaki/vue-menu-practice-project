@@ -21,5 +21,3 @@ const props = defineProps(["item", "collapsed"]);
     </div>
   </a>
 </template>
-
-<style scoped></style>
