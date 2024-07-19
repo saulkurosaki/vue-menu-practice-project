@@ -1,7 +1,8 @@
 <script setup></script>
 
 <template>
-  <h1 class="text-3xl font-bold underline text-blue-600">Hello world!</h1>
+  <!-- Add the style and icon you want using the Array format -->
+  <font-awesome-icon :icon="['fas', 'user-secret']" />
 </template>
 
 <style scoped></style>
