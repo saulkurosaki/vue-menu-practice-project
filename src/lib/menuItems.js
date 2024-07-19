@@ -1,6 +1,7 @@
 export default {
   profile: {
     name: "Saul Paredes",
+    image: "profile.jpg",
     onclick() {
       console.log("Hola");
     },
