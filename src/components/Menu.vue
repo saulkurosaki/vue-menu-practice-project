@@ -1,5 +1,11 @@
-<script setup></script>
+<script setup>
+import { ref } from "vue";
 
-<template>Menu</template>
+const collapsed = ref(false);
+</script>
+
+<template>
+  <div :class="['menu', collapsed ? 'collapsed' : 'expanded']"></div>
+</template>
 
 <style scoped></style>
