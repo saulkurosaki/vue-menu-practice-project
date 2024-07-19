@@ -1,8 +1,9 @@
-<script setup></script>
+<script setup>
+import Menu from "./components/Menu.vue";
+</script>
 
 <template>
-  <!-- Add the style and icon you want using the Array format -->
-  <font-awesome-icon :icon="['fas', 'user-secret']" />
+  <Menu />
 </template>
 
 <style scoped></style>
